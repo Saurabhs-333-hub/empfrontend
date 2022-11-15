@@ -34,7 +34,7 @@ const Login = () => {
       localStorage.setItem("user", JSON.stringify(data));
       localStorage.setItem("phone", JSON.stringify(data.user.phone));
       localStorage.setItem("location", JSON.stringify(data.user.location));
-      window.location.replace('/')
+      // window.location.replace('/')
       navigate("/");
       console.log(data);
       // console.log(user.user.email)
