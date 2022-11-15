@@ -23,7 +23,7 @@ const Settings = () => {
             localStorage.removeItem("user");
             localStorage.removeItem("email");
             localStorage.removeItem("name");
-            window.location.reload()
+            // window.location.reload()
             window.location.replace('/login')
             // console.log(res);
             // console.log(user._id);

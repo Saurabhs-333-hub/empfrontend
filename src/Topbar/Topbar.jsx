@@ -12,7 +12,7 @@ const Topbar = () => {
     localStorage.removeItem("user");
     localStorage.removeItem("email");
     localStorage.removeItem("name");
-    window.location.reload()
+    // window.location.reload()
     navigate("/login");
   };
   // console.log(user.user.email)

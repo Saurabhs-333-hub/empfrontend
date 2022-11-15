@@ -55,7 +55,7 @@ const SinglePage = () => {
         { name: user.user.name, title, desc }
       );
       // setUpdate(false)
-      window.location.reload()
+      // window.location.reload()
       console.log(res);
       console.log(post._id);
     } catch (err) {
