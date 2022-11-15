@@ -1,0 +1,138 @@
+.write {
+  position: absolute;
+  margin: 10px;
+  width: 80vw;
+  height: 85vh;
+  top: 60px;
+  left: 120px;
+  background: rgba(0, 0, 255, 0.367);
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: scroll;
+}
+
+.writeForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* background: rgb(255, 255, 255); */
+}
+
+.writeGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* background: rgb(255, 255, 255); */
+}
+
+.writeInput {
+  position: relative;
+  top: 0px;
+  left: -200px;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  background: rgba(0, 51, 255, 0.416);
+  border-radius: 25px;
+  height: 60px;
+  font-family: Quicksand;
+  text-align: center;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(20px);
+  border: 2px solid white;
+}
+
+.writeInput {
+  position: relative;
+  top: 0px;
+  left: -200px;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  background: rgba(0, 51, 255, 0.416);
+  border-radius: 25px;
+  height: 60px;
+  font-family: Quicksand;
+  text-align: center;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(20px);
+  border: 2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+}
+.writeInput:focus {
+  transform-style: preserve-3d;
+  /* transform: translate(600px, 40px); */
+  color: rgb(0, 0, 0);
+  width: 600px;
+  height: 100px;
+  font-size: xx-large;
+}
+.textarea {
+  position: relative;
+  top: 0px;
+  left: -200px;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  background: rgba(0, 51, 255, 0.416);
+  border-radius: 25px;
+  height: 60px;
+  font-family: Quicksand;
+  text-align: center;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(20px);
+  resize: none;
+  border: 2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  word-wrap: normal;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+}
+
+.textarea:focus {
+  transform-style: preserve-3d;
+  /* transform: translate(600px, 20px); */
+  color: rgb(0, 0, 0);
+  width: 600px;
+  height: 300px;
+  font-size: x-large;
+}
+
+.btn {
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 460px;
+  left: 800px;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+  border: none;
+  cursor: pointer;
+}

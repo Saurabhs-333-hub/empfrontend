@@ -1,0 +1,93 @@
+.settings {
+  position: absolute;
+  top: 60px;
+  right: 0px;
+}
+
+.profilediv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  /*
+  position: relative;
+  top: 60px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  width: fit-content;
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 25px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  margin: 10px;
+}
+
+.post {
+  position: absolute;
+  top: 180px;
+  left: 66px;
+  max-width: fit-content;
+  /* height: 30vh; */
+  /* margin-left: 10vw; */
+}
+span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.profile {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: fit-content;
+}
+
+.width {
+  width: 400px;
+}
+
+.flexitems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: fit-content;
+  /* border: 1px solid rgb(0, 0, 0); */
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+}
+.postsprofile {
+  margin-left: 10vw;
+}
+
+.profileinfo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* flex-direction: column; */
+  position: relative;
+  /* top: 60px; */
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  /* backdrop-filter: blur(3.5px); */
+  /* -webkit-backdrop-filter: blur(3.5px); */
+  /* height: 30vh; */
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin-top: 100px;
+  left: -200px;
+  /* border: 1px solid rgb(255, 0, 0);; */
+}
+
+.profilecontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imginfo {
+  width: 40px;
+  height: 40px;
+}

@@ -1,0 +1,79 @@
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.login {
+  background: rgba(255, 255, 255, 0.119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* width: 600px; */
+  padding: 10px;
+  /* max-width: fit-content; */
+  /* height: 500px; */
+  /* border: 2px solid rgba(255, 255, 255, 0.608); */
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.31);
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+label {
+  width: 100px;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column;   */
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input {
+  width: 400px;
+  margin: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.184);
+  outline: none;
+}
+
+::placeholder {
+  color: black;
+}
+
+.button1 {
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  /* width: 200px; */
+  background: #000;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.184);
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  color: black;
+  margin: 10px;
+}
+
+.button1:active {
+  background: #000;
+  color: white;
+}
+
+.button1:disabled {
+  cursor: not-allowed;
+  background: rgb(255, 255, 255);
+}

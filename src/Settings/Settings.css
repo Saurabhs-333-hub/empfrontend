@@ -1,0 +1,140 @@
+.writeInput1 {
+  position: relative;
+  top: 0px;
+  left: 00px;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  background: rgba(0, 51, 255, 0.416);
+  border-radius: 25px;
+  height: 60px;
+  font-family: Quicksand;
+  text-align: center;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(20px);
+  border: 2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+}
+
+.writeInput2 {
+  position: relative;
+  top: 0px;
+  left: 00px;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  background: rgba(0, 51, 255, 0.416);
+  border-radius: 25px;
+  height: 60px;
+  font-family: Quicksand;
+  text-align: center;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(20px);
+  border: 2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+}
+.writeInput3 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.5s;
+  background: rgba(0, 51, 255, 0.416);
+  border-radius: 25px;
+  height: 60px;
+  font-family: Quicksand;
+  text-align: center;
+  outline: none;
+  border: none;
+  backdrop-filter: blur(20px);
+  resize: none;
+  border: 2px solid white;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  word-wrap: normal;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+}
+
+.writeInput1:focus {
+  transform-style: preserve-3d;
+  /* transform: translate(600px, 20px); */
+  color: rgb(0, 0, 0);
+  width: 600px;
+  height: 100px;
+  font-size: x-large;
+}
+
+.writeInput2:focus {
+  transform-style: preserve-3d;
+  /* transform: translate(600px, 20px); */
+  color: rgb(0, 0, 0);
+  width: 600px;
+  height: 100px;
+  font-size: x-large;
+}
+
+.writeInput3:focus {
+  transform-style: preserve-3d;
+  /* transform: translate(600px, 20px); */
+  color: rgb(0, 0, 0);
+  width: 600px;
+  height: 300px;
+  font-size: x-large;
+}
+
+.column {
+  position: relative;
+  top: 100px;
+  left: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn1 {
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 360px;
+  left: 800px;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+  border: none;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 100px;
+  padding: 10px;
+  position: absolute;
+  top: 440px;
+  left: 800px;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 6px;
+  padding: 4px;
+  box-shadow: 0 8px 6px 0 rgba(31, 38, 135, 0.37);
+  border: none;
+  cursor: pointer;
+}
